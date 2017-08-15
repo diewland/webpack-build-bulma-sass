@@ -1,0 +1,23 @@
+{
+  "name": "build-bulma-sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "diewland <diewland@gmail.com> (https://diewland.com)",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.5.1",
+    "css-loader": "^0.28.4",
+    "extract-text-webpack-plugin": "^3.0.0",
+    "node-sass": "^4.5.3",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.4"
+  }
+}
