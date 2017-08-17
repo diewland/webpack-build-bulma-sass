@@ -29,6 +29,12 @@ root/
   |-- webpack.config.js
 ```
 
+### Better way :heart:
+Use node-sass
+```
+node-sass src/build-bulma.sass --output-style compressed > dist/bulma.min.css
+```
+
 ### References
 * https://hackernoon.com/webpack-the-basics-2712a7ad640b?token=dUoQB9dKDyvygSSO
 * http://bulma.io/documentation/overview/customize/
